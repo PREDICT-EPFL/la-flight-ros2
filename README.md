@@ -69,7 +69,7 @@ If you use this code in scientific work, please cite the accompanying paper:
 
 ```bibtex
 @INPROCEEDINGS{waibel2026highfidelity,
-  author={Waibel, Johannes and Brouillon, Jean-Sebastien and Jones, Colin N.},
+  author={Waibel, Johannes and Brouillon, Jean-Sébastien and Jones, Colin N.},
   booktitle={23rd IFAC World Congress},
   title={High-fidelity Simulation and Control of a Centrifugally-stiffened Airborne Wind Energy System},
   year={2026}
