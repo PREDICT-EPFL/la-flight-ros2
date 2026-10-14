@@ -1,0 +1,88 @@
+info:
+    name: EasyGlider4
+
+geom:
+    b: 1.8
+    c: 0.18523
+    AR: 10.016
+    S: 0.32347
+
+inertia:
+    mass: 1.3474
+    Ixx: 0.0832
+    Iyy: 0.0667
+    Izz: 0.1173
+    Ixz: -0.00215
+
+aero:
+    turb_ref_length: 1.8
+    CD0: 0.022
+    e_oswald: 0.47
+    CD0a: 0.0317
+    k_CL: 0.0678
+    CL_CD0: 0.1304
+
+aero_aoa:
+    CL0: 0.8
+    CLa: 5.2
+    Cm0: -0.059763
+    Cma: -0.65901
+
+aero_ss:
+    CYb: -0.30694
+    Cl0: 0
+    Clb: -0.070599
+    Cn0: 0
+    Cnb: 0.05263
+
+aero_rate_pitch:
+    CLq: 4.2817
+    Cmq: -14.0192
+
+aero_rate_roll:
+    CYp: -0.12986
+    Clp: -0.29281
+    Cnp: -0.060973
+
+aero_rate_yaw:
+    CYr: 0.23083
+    Clr: 0.17602
+    Cnr: -0.066359
+
+aero_ctrl_elev:
+    CDde: 0.01
+    CLde: 0
+    Cmde: -0.61452
+
+aero_ctrl_ail:
+    Clda: -0.12068
+    Cnda: -0.00824
+
+aero_ctrl_rud:
+    CYdr: 0.2026
+    Cldr: 7.4799e-08
+    Cndr: -0.05693
+
+aero_ctrl_thr:
+    thr0_to_rpm: 1000
+    rpm2_to_static_thrust: 1.2e-08
+    thr_p1: -0.0147
+    thr_p2: -0.00083119
+    thr_c1: 1250
+    thr_c2: 64000000
+    const_thr: 4
+
+actuators:
+    TC_thr: 0.15689
+    TC_dE: 0.02
+    TC_dR: 0.02
+    TC_dA: 0.06
+
+tether:
+    teth_rx: -0.005
+    teth_ry: 0
+    teth_rz: 0.05
+    teth_length: 120
+    teth_Ks: 0.66
+    teth_Kd: 0.44
+

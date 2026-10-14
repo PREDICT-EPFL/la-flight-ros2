@@ -1,0 +1,3 @@
+[submodule "la-common"]
+	path = la-common
+	url = https://github.com/PREDICT-EPFL/la-common.git

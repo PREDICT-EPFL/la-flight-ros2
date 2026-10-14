@@ -1,0 +1,8 @@
+build/
+install/
+log/
+build-*/
+cmake-build-*/
+.idea/
+.vscode/
+*.swp
