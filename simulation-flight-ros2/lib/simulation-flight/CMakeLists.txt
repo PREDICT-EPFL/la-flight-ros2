@@ -27,7 +27,7 @@ target_link_libraries(flight_sim_test PRIVATE flight_simulator)
 
 if (WITH_CASADI)
     find_package(Casadi REQUIRED)
-    target_link_libraries(flight_simulator PUBLIC casadi)
+    target_link_libraries(flight_simulator PUBLIC casadi::casadi)
     target_compile_definitions(flight_simulator PUBLIC WITH_CASADI=1)
 
     target_compile_definitions(flight_sim_test PUBLIC WITH_CASADI=1)

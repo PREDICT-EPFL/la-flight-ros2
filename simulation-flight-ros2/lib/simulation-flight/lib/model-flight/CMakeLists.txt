@@ -28,7 +28,7 @@ if (NOT TARGET flight_model)
     if (${WITH_CASADI})
         find_package(Casadi REQUIRED) # This ensures Casadi is installed on the system. The target to link to is 'casadi' afterwards.
         target_include_directories(flight_model INTERFACE include_casadi/)
-        target_link_libraries(flight_model INTERFACE casadi)
+        target_link_libraries(flight_model INTERFACE casadi::casadi)
 
         # Build additional executable quaternion_test
         add_executable(quaternion_test tests_casadi/quaternion_test.cpp)
